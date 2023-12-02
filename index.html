@@ -19,12 +19,51 @@
     <div class="container">
       <form>
         <div class="form_container">
-          <div class="block">
-            
 
+          <div class="block">
+            <label for="day">
+              Day
+            </label>
+            <input type="number" id="day" placeholder="DD">
+            <small></small>
+          </div>
+
+          <div class="block">
+            <label for="month">
+              Month
+            </label>
+            <input type="number" id="month" placeholder="MM">
+            <small></small>
+          </div>
+
+          <div class="block">
+            <label for="year">
+              Year
+            </label>
+            <input type="number" id="year" placeholder="YYYY">
+            <small></small>
           </div>
         </div>
+          <!-- ================ SUBMIT SECTION ================================= -->
+
+          <div class="submit_block">
+            <hr>
+            <button type="submit_block" class="submit_btn"><i class="fa-solid fa-arrow-down"></i></button>
+          </div>
+
       </form>
+
+        <!-- ============= OUTPUT SEC. ========================= -->
+  
+      <div class="output">
+        <h1><span id="YY">--</span>years</h1>
+        <h1><span id="MM">--</span>months</h1>
+        <h1><span id="DD">--</span>days</h1>
+
+      </div>
+
+
+
     </div>
   </div>
 
